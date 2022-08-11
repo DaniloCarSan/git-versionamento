@@ -92,8 +92,9 @@ git checkout main
 git fetch --all
 git pull origin main
 ````
-**5-** Realizar o merge com a branch **dev** e sincronizar as alterações
+**6-** Realizar o merge com a branch **dev** e sincronizar as alterações
 ````
+git checkout main
 git merge main
 git push origin dev
 git pull origin dev
